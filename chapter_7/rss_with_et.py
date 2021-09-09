@@ -60,7 +60,7 @@ def create_rss():
 
     # XML 문자열로 변환하기
     xml = ET.tostring(elm_rss, 'utf-8')
-
+dfadafdaf
     # 앞에 <?xml version="1.0"?>를 추가하고 보기 좋게 가공하기
     with minidom.parseString(xml) as dom:
         return dom.toprettyxml(indent="  ")
